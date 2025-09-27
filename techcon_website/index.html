@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TechCon 2024 | Technology Conference</title>
+</head>
+<body>
+    <!-- Header section containing conference branding and navigation -->
+    <header>
+        <div class="logo">
+            <h1>TechCon 2024</h1>
+        </div>
+        
+        <!-- Main navigation menu -->
+        <nav aria-label="Main navigation">
+            <ul class="nav-links">
+                <li><a href="about.html">About</a></li>
+                <li><a href="schedule.html">Schedule</a></li>
+                <li><a href="register.html">Register</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Skip navigation link for accessibility -->
+    <div class="skip-nav">
+        <a href="#main-content" class="sr-only sr-only-focusable">Skip to main content</a>
+    </div>
+
+    <!-- Main content section -->
+    <main id="main-content">
+        <!-- Conference introduction section -->
+        <section aria-labelledby="intro-heading">
+            <h2 id="intro-heading">Welcome to TechCon 2024</h2>
+            
+            <p>TechCon 2024 brings together innovators and leaders in technology for three days of learning, networking, and inspiration. Join us for keynote presentations, technical workshops, and exciting product launches.</p>
+
+            <!-- Promotional video with accessibility features -->
+            <figure>
+                <video controls width="800" height="450" preload="metadata">
+                    <source src="techcon-promo.mp4" type="video/mp4">
+                    <track kind="captions" src="promo-captions.vtt" srclang="en" label="English Captions">
+                    
+                    <!-- Fallback content for browsers that don't support video -->
+                    Your browser does not support the video tag.
+                </video>
+                
+                <!-- Video description for screen readers -->
+                <figcaption>
+                    A promotional video showcasing highlights from previous TechCon events,
+                    featuring speakers, attendees, and conference activities.
+                </figcaption>
+            </figure>
+        </section>
+    </main>
+
+    <!-- Footer section with copyright information -->
+    <footer>
+        <p>&copy; 2024 TechCon. All rights reserved.</p>
+    </footer>
+</body>
+</html>
